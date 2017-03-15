@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "cuisines#index"
   devise_for :usernames
   # Routes for the Username resource:
   # READ
